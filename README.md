@@ -1,0 +1,1 @@
+[![Run Amharic Scraper](https://github.com/AmanuelBalchason/reporter-scraper/actions/workflows/scrape_schedule.yml/badge.svg?branch=main)](https://github.com/AmanuelBalchason/reporter-scraper/actions/workflows/scrape_schedule.yml)
