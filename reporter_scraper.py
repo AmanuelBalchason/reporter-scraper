@@ -13,21 +13,39 @@ import traceback
 
 # --- Configuration ---
 STARTING_URLS = [
-    "https://www.ethiopianreporter.com/news/", "https://www.ethiopianreporter.com/politics/",
-    "https://www.ethiopianreporter.com/business/", "https://www.ethiopianreporter.com/editorial/",
-    "https://www.ethiopianreporter.com/interview/", "https://www.ethiopianreporter.com/kibur-minister/",
-    "https://www.ethiopianreporter.com/youth/", "https://www.ethiopianreporter.com/society/",
-    "https://www.ethiopianreporter.com/sport/", "https://www.ethiopianreporter.com/kinin-and-bahil/",
-    "https://www.ethiopianreporter.com/yesamintu-getemegn/", "https://www.ethiopianreporter.com/advertorial/",
-    "https://www.ethiopianreporter.com/yidires-le-reporter/", "https://www.ethiopianreporter.com/baltina/",
-    "https://www.ethiopianreporter.com/rule-of-law/", "https://www.ethiopianreporter.com/science-and-technology/",
-    "https://www.ethiopianreporter.com/life/", "https://www.ethiopianreporter.com/what-where/",
-    "https://www.ethiopianreporter.com/ene-emilew/", "https://www.ethiopianreporter.com/opinion/",
-    "https://www.ethiopianreporter.com/fermata/", "https://www.ethiopianreporter.com/temuaget/",
-    "https://www.ethiopianreporter.com/speak-your-mind/", "https://www.ethiopianreporter.com/tesfish-and-gebrish/",
-    "https://www.ethiopianreporter.com/ferekenafir/", "https://www.ethiopianreporter.com/zinik/",
-    "https://www.ethiopianreporter.com/world/", "https://www.ethiopianreporter.com/buyers/",
-    "https://www.ethiopianreporter.com/delalaw/", "https://www.ethiopianreporter.com/taxi/",
+    # Core News/Sections
+    "https://www.ethiopianreporter.com/news/",
+    "https://www.ethiopianreporter.com/politics/",
+    "https://www.ethiopianreporter.com/business/",
+    "https://www.ethiopianreporter.com/editorial/",
+    "https://www.ethiopianreporter.com/interview/",
+    "https://www.ethiopianreporter.com/youth/",
+    "https://www.ethiopianreporter.com/society/",
+    "https://www.ethiopianreporter.com/sport/",
+    "https://www.ethiopianreporter.com/kinin-and-bahil/", # Arts & Culture
+    "https://www.ethiopianreporter.com/advertorial/",
+    "https://www.ethiopianreporter.com/world/",
+    "https://www.ethiopianreporter.com/life/", # = ሥነ ፍጥረት
+    "https://www.ethiopianreporter.com/science-and-technology/",
+    # Columns/Segments
+    "https://www.ethiopianreporter.com/kibur-minister/",
+    "https://www.ethiopianreporter.com/what-are-they-going-to-do/",
+    "https://www.ethiopianreporter.com/temuaget/",
+    "https://www.ethiopianreporter.com/speak-your-mind/",
+    "https://www.ethiopianreporter.com/yesamintu-getemegn/",
+    "https://www.ethiopianreporter.com/ene-emilew/",
+    "https://www.ethiopianreporter.com/opinion/",
+    "https://www.ethiopianreporter.com/fermata/",
+    "https://www.ethiopianreporter.com/tesfish-and-gebrish/",
+    "https://www.ethiopianreporter.com/ferekenafir/",
+    "https://www.ethiopianreporter.com/zinik/",
+    "https://www.ethiopianreporter.com/buyers/",
+    "https://www.ethiopianreporter.com/delalaw/",
+    "https://www.ethiopianreporter.com/taxi/",
+    "https://www.ethiopianreporter.com/yidires-le-reporter/",
+    "https://www.ethiopianreporter.com/baltina/",
+    "https://www.ethiopianreporter.com/rule-of-law/",
+    "https://www.ethiopianreporter.com/what-where/",
 ]
 JSONL_OUTPUT_FILE = "ethiopianreporter_classified_data_v2.jsonl"
 FETCH_DELAY_CATEGORY = 2; FETCH_DELAY_ARTICLE = 3
