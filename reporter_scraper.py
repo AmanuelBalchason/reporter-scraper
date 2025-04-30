@@ -31,7 +31,10 @@ STARTING_URLS = [
 ]
 JSONL_OUTPUT_FILE = "ethiopianreporter_classified_data_v2.jsonl"
 FETCH_DELAY_CATEGORY = 2; FETCH_DELAY_ARTICLE = 3
-MAX_PAGES_PER_CATEGORY = 5; MAX_ARTICLES_TO_PROCESS = 20
+# Change this:
+MAX_PAGES_PER_CATEGORY = 50 # Or 100, or higher - how deep do you want to go? Deeper = much longer runtime!
+# Change this:
+MAX_ARTICLES_TO_PROCESS = None # Set to None to process ALL found articles
 MAX_RETRIES = 3; RETRY_INITIAL_DELAY = 5; RETRY_BACKOFF_FACTOR = 2
 HEADERS = { 'User-Agent': 'AmharicLLMScraperBot/1.6 (+amanuel@example.com)' }
 
